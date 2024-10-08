@@ -1,0 +1,353 @@
+:root {
+   --primary-color: #f33540;
+   --secondary-color: #ef3340;
+   --accent-color: #d83334;
+   --background-color: #fff;
+   --text-color-black: #000;
+   --text-color-white: #fff;
+}
+
+a {
+   color: #000;
+   text-decoration: none;
+}
+
+header {
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.list-horizontal {
+   background-color: white;
+   color: #000;
+}
+
+.list-horizontal {
+   display: flex;
+   flex-direction: row;
+   gap: 2rem;
+}
+
+.mi-boton {
+   padding: 6px 15px;
+   background-color: red;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 14px;
+}
+
+.mi-boton:hover::after {
+   opacity: 1;
+}
+
+.second-box {
+   background-image: url(img/poratadacover-scaled-1.jpg);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   justify-content: center;
+   color: white;
+   font-size: x-large;
+   margin-top: -30px;
+}
+
+.box-3 {
+   background-color: red;
+   padding: 2%;
+}
+
+.metodologia {
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 2%;
+   gap: 1rem;
+   margin-top: 2rem;
+}
+
+article {
+   background-color: white;
+   text-align: center;
+   padding: 2%;
+   transition: transform 0.3s ease;
+}
+
+article:hover {
+   transform: translate(10px, -10px);
+}
+
+.Bootcamps {
+   display: flex;
+   flex-direction: row;
+   gap: 3rem;
+   justify-content: space-around;
+   list-style: none;
+}
+
+.Masteres {
+   display: flex;
+   flex-direction: row;
+   gap: 2rem;
+   justify-content: space-around;
+
+}
+
+.data {
+   background-image: url(img/estudiar-data-science-1.png);
+   background-size: contain;
+   height: 120px;
+   width: 120px;
+   background-repeat: no-repeat;
+   color: white;
+   align-content: end;
+   padding: 10px;
+   position: relative;
+
+}
+
+.data::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 99%;
+   height: 97%;
+   background-image: url(img/deco-bootcamps.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: rgba(248, 7, 7, 0.4);
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.data:hover::after {
+   opacity: 1;
+}
+
+.ciber {
+   background-image: url(img/estudiar-ciberseguridad.png);
+   background-size: contain;
+   height: 120px;
+   width: 120px;
+   background-repeat: no-repeat;
+   color: white;
+   align-content: end;
+   padding: 10px;
+   position: relative;
+}
+
+.ciber::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 99%;
+   height: 97%;
+   background-image: url(img/deco-bootcamps.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: rgba(248, 7, 7, 0.4);
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.ciber:hover::after {
+   opacity: 1;
+}
+
+.full {
+   background-image: url(img/estudiar-programacion-front-end-back.png);
+   background-size: contain;
+   height: 120px;
+   width: 120px;
+   background-repeat: no-repeat;
+   color: white;
+   align-content: end;
+   padding: 10px;
+   position: relative;
+
+}
+
+.full::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 99%;
+   height: 97%;
+   background-image: url(img/deco-bootcamps.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: rgba(248, 7, 7, 0.4);
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.full:hover::after {
+   opacity: 1;
+}
+
+.ux {
+   background-image: url(img/bootcamp-cloud.png);
+   background-size: contain;
+   height: 120px;
+   width: 120px;
+   background-repeat: no-repeat;
+   color: white;
+   align-content: end;
+   padding: 10px;
+   position: relative;
+
+}
+
+.ux::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 99%;
+   height: 97%;
+   background-image: url(img/deco-bootcamps.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: rgba(248, 7, 7, 0.4);
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.ux:hover::after {
+   opacity: 1;
+}
+
+.mktg {
+   background-image: url(img/estudiar-el-mejor-marketing-digital.png);
+   background-size: contain;
+   height: 120px;
+   width: 120px;
+   background-repeat: no-repeat;
+   color: white;
+   align-content: end;
+   padding: 10px;
+   position: relative;
+}
+
+.mktg::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 99%;
+   height: 97%;
+   background-image: url(img/deco-bootcamps.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: rgba(248, 7, 7, 0.4);
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.mktg:hover::after {
+   opacity: 1;
+}
+
+.ia-1 {
+   background-image: url(img/master-1.jpg);
+   background-size: contain;
+   height: 150px;
+   width: 150px;
+   background-repeat: no-repeat;
+   color: white;
+   align-content: end;
+   padding: 10px;
+   position: relative;
+}
+
+.ia-1::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 97%;
+   background-image: url(img/deco-bootcamps.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: rgba(248, 7, 7, 0.4);
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.ia-1:hover::after {
+   opacity: 1;
+}
+
+.ia-2 {
+   background-image: url(img/master-2.jpg);
+   background-size: contain;
+   height: 150px;
+   width: 150px;
+   background-repeat: no-repeat;
+   color: white;
+   align-content: end;
+   padding: 10px;
+   position: relative;
+}
+
+.ia-2::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 97%;
+   background-image: url(img/deco-bootcamps.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: rgba(248, 7, 7, 0.4);
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.ia-2:hover::after {
+   opacity: 1;
+}
+
+.ia-3 {
+   background-image: url(img/master-3.jpg);
+   background-size: contain;
+   height: 150px;
+   width: 150px;
+   background-repeat: no-repeat;
+   color: white;
+   align-content: end;
+   padding: 10px;
+   position: relative;
+}
+
+.ia-3::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 97%;
+   background-image: url(img/deco-bootcamps.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: rgba(248, 7, 7, 0.4);
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.ia-3:hover::after {
+   opacity: 1;
+}
